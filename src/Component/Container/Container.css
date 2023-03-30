@@ -31,3 +31,12 @@
   font-size: 20px;
   color: rgba(17, 17, 17, 0.6);
 }
+.icon{
+  font-weight: 500;
+  font-size: 20px;
+  color: rgba(17, 17, 17, 0.6);
+}
+.icon-btn{
+  border: none;
+  
+}

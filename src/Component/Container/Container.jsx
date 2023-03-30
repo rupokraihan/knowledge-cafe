@@ -1,4 +1,6 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBookmark } from "@fortawesome/free-solid-svg-icons";
 import "./Container.css";
 
 const Container = (props) => {
@@ -23,11 +25,18 @@ const Container = (props) => {
             <p className="publish-date">{publishDate}</p>
           </div>
         </div>
-        <div>
+        <div className="d-flex gap-3 align-items-center">
           <p className="read-time">{readTime}</p>
+          <button className="icon-btn">
+            <FontAwesomeIcon className="icon" icon={faBookmark} />
+          </button>
         </div>
       </div>
       <h1>{blogTitle}</h1>
+      <p>#beginners #programming</p>
+      <p>
+        <a href="#">Mark as read</a>
+      </p>
     </div>
   );
 };
