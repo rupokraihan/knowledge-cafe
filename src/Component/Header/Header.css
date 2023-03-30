@@ -2,3 +2,7 @@
   font-weight: 700;
   font-size: 40px;
 }
+hr{
+  border: 1px solid gray;
+  margin-top: 20px;
+}
