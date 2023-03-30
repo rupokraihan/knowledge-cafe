@@ -3,13 +3,15 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import "bootstrap/dist/css/bootstrap.min.css";
-import Header from './Component/Header';
+import Header from './Component/Header/Header';
+import Blog from './Component/Blog/Blog';
 
 function App() {
 
   return (
     <div className="App">
       <Header></Header>
+      <Blog></Blog>
     </div>
   )
 }

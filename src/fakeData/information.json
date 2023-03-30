@@ -1,0 +1,38 @@
+[
+    {
+        "id": "6425e64108d1af05923dfa22",
+        "authorName": "Sabila Nur",
+        "blogTitle": "Getting your first job can take time, so don't give up and keep learning and building your skills while you search for opportunities.",
+        "blogCoverImage": "https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1631&q=80",
+        "authorImage": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80",
+        "readTime": "10 min read",
+        "publishDate": "Feb 18 (42 Days ago)"
+    },
+    {
+        "id": "6425e6414f9a16ed40ce1431",
+        "authorName": "Md Zakir",
+        "blogTitle": " Highlight your self-taught journey and emphasize your motivation and dedication to learning and growing as a developer.",
+        "blogCoverImage": "https://images.unsplash.com/photo-1618335829737-2228915674e0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "authorImage": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
+        "readTime": "14 min read",
+        "publishDate": "jan 30 (60 Days ago)"
+    },
+    {
+        "id": "6425e6418c6262a045b4c54e",
+        "authorName": "Athar Masum",
+        "blogTitle": "Look for internships or entry-level positions at companies that are willing to take on self-taught developers.",
+        "blogCoverImage": "https://images.unsplash.com/photo-1517148815978-75f6acaaf32c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "authorImage": "https://images.unsplash.com/photo-1608791952180-79294109d843?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+        "readTime": "08 min read",
+        "publishDate": "jan 15 (75 Days ago)"
+    },
+    {
+        "id": "6425e641a5a9e74c3fffa711",
+        "authorName": "Mrs Anisa",
+        "blogTitle": "Attend meetups, conferences, and online forums to connect with other developers and learn about job opportunities.",
+        "blogCoverImage": "https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "authorImage": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80",
+        "readTime": "15 min read",
+        "publishDate": "jan 10 (80 Days ago)"
+    }
+  ]
