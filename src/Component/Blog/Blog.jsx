@@ -1,14 +1,15 @@
 import React, { useEffect, useState } from 'react';
+import Bookmark from '../Bookmark/Bookmark';
 import Container from '../Container/Container';
 import './Blog.css'
 
-const Blog = () => {
+const Blog = ({ handleReadTime,readTime }) => {
   const [blogContainers, setBlogContainers] = useState([]);
   useEffect(() => {
-    fetch('information.json') 
-    .then(res => res.json())
-    .then(data =>setBlogContainers(data))
-  },[])
+    fetch("information.json")
+      .then((res) => res.json())
+      .then((data) => setBlogContainers(data));
+  }, []);
   return (
     <div className="container">
       <div className="row">
@@ -17,11 +18,12 @@ const Blog = () => {
             <Container
               key={container.id}
               container={container}
+              handleReadTime={handleReadTime}
             ></Container>
           ))}
         </div>
         <div className="bookmark-side col-lg-3">
-          <h1>Hello Bookmark</h1>
+          <Bookmark readTime={readTime}></Bookmark>
         </div>
       </div>
     </div>

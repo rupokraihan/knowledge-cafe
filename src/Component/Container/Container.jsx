@@ -1,9 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBookmark } from "@fortawesome/free-solid-svg-icons";
 import "./Container.css";
 
-const Container = (props) => {
+const Container = ({ container, handleReadTime }) => {
   const {
     authorName,
     blogTitle,
@@ -11,7 +11,8 @@ const Container = (props) => {
     authorImage,
     readTime,
     publishDate,
-  } = props.container;
+  } =container;
+
   return (
     <div>
       <img className="cover-image" src={blogCoverImage} alt="" />
@@ -26,16 +27,17 @@ const Container = (props) => {
           </div>
         </div>
         <div className="d-flex gap-3 align-items-center">
-          <p className="read-time">{readTime}</p>
+          <p className="read-time">{readTime} min read</p>
           <button className="icon-btn">
             <FontAwesomeIcon className="icon" icon={faBookmark} />
           </button>
         </div>
       </div>
       <h1>{blogTitle}</h1>
-      <p>#beginners #programming</p>
+      <p className="hash-tag">#beginners #programming</p>
+
       <p>
-        <a href="#">Mark as read</a>
+        <button onClick={() => handleReadTime(readTime)}>Mark as read</button>
       </p>
     </div>
   );
