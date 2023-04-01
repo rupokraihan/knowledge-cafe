@@ -1,0 +1,12 @@
+.answer-container{
+  background-color: bisque;
+  margin-top: 30px;
+  padding: 20px;
+}
+.answer-container h2{
+  font-size: 40px;
+  
+}
+.answer-container p{
+  font-size: 24px;
+}

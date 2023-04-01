@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import Answer from "../Answer/Answer";
 import Bookmark from "../Bookmark/Bookmark";
 import Container from "../Container/Container";
 import "./Blog.css";
@@ -28,7 +29,7 @@ const Blog = ({ handleReadTime, readTime, handleBookmark, blogTitle }) => {
           <Bookmark readTime={readTime} blogTitle={blogTitle}></Bookmark>
         </div>
       </div>
-      
+      <Answer></Answer>
     </div>
   );
 };
