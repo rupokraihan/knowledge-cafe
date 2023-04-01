@@ -1,0 +1,40 @@
+.bookmark{
+  margin-top: 32px;
+}
+.total-time {
+  width: 100%;
+  height: 80px;
+  background: rgba(96, 71, 236, 0.1);
+  border: 1px solid #6047ec;
+  border-radius: 8px;
+  color: #6047ec;
+  font-size: 20px;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
+
+.bookmark-container{
+  background: rgba(17, 17, 17, 0.05);
+border-radius: 8px;
+margin-top: 30px;
+padding-bottom: 20px;
+}
+
+.bookmark-title{
+  
+  background-color: white;
+  padding: 4px;
+  margin: 5px 20px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 500;
+
+}
+.bookmarked-blogs{
+  font-weight: 700;
+  font-size: 24px;
+  margin: 5px 20px;
+}
+

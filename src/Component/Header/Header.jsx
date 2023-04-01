@@ -7,7 +7,7 @@ const Header = () => {
     <div className="container">
       <div className=" container d-flex justify-content-between mt-4">
         <div>
-          <h1>Knowledge Cafe</h1>
+          <h1>The Inspired Journey</h1>
         </div>
         <div>
           <img src={logo} alt="" />
