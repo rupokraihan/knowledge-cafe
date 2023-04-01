@@ -20,11 +20,15 @@ border-radius: 8px;
 margin-top: 30px;
 padding-bottom: 20px;
 }
-
+.bookmarked-blogs{
+  font-weight: 700;
+  font-size: 24px;
+  margin: 5px 20px;
+}
 .bookmark-title{
   
   background-color: white;
-  padding: 4px;
+  padding: 10px;
   margin: 5px 20px;
   border-radius: 8px;
   margin-bottom: 10px;
@@ -32,9 +36,5 @@ padding-bottom: 20px;
   font-weight: 500;
 
 }
-.bookmarked-blogs{
-  font-weight: 700;
-  font-size: 24px;
-  margin: 5px 20px;
-}
+
 

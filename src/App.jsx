@@ -11,8 +11,8 @@ import "react-toastify/dist/ReactToastify.css";
 function App() {
   const [readTime, setReadTime] = useState(0);
 
+  // for reading time
   const handleReadTime = (time) => {
-    console.log(time)
     const previousReadTime = JSON.parse(localStorage.getItem("readTime"));
     if (previousReadTime) {
       const sum = previousReadTime + time;
@@ -24,6 +24,7 @@ function App() {
     }
   };
 
+  // for bookmark
   const [blogTitle, setBlogTitle] = useState([]);
   const handleBookmark = (title) => {
     const exist = blogTitle.find((book) => book == title);
