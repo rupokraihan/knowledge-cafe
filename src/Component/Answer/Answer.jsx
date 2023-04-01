@@ -52,7 +52,7 @@ const Answer = () => {
       </p>
 
       {/* answer to question no-3  */}
-      <h2 className="mt-5">What else can useEffect do except load data?</h2>
+      <h2 className="mt-5">3.What else can useEffect do except load data?</h2>
       <p>
         Ans:useEffect is a built-in React hook that allows you to perform side
         effects in functional components. While loading data is a common use
@@ -74,7 +74,7 @@ const Answer = () => {
       </p>
 
       {/* answer to question no-4  */}
-      <h2 className="mt-5">How does react work?</h2>
+      <h2 className="mt-5">4.How does react work?</h2>
       <p>
         Ans:React is a popular JavaScript library for building user interfaces.
         It works by allowing developers to create reusable UI components and
